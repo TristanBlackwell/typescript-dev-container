@@ -1,0 +1,19 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+  "runArgs": ["--name", "<REPOSITORY_NAME>"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "yoavbls.pretty-ts-errors",
+        "SonarSource.sonarlint-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000]
+}
