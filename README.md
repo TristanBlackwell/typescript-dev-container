@@ -8,7 +8,7 @@ Runs on the underlying `typescript-node` image [from Microsoft](https://github.c
 
 ### Utilities
 
-Pre-installed with the image is Yarn (V3.6.3), Node (V18.16), and TypeScript (V5.1.3).
+Pre-installed with the image is Yarn (V3.6.3), Node (V20.7.0), and TypeScript (V5.1.3).
 
 ### Helpers
 
